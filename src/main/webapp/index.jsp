@@ -22,7 +22,7 @@
 
 <body>
 	<!--navbar-->
-	<nav class="navbar navbar-expand-lg navbar-light">
+	<nav class="navbar navbar-expand-lg navbar-light border-bottom">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#"><img src="../img/HOW TO-1.png" alt=""></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
