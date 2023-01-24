@@ -24,7 +24,7 @@
 	<!--navbar-->
 	<nav class="navbar navbar-expand-lg navbar-light border-bottom">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><img src="../img/HOW TO-1.png" alt=""></a>
+			<a class="navbar-brand" href="#"><img src="img/HOW TO-1.png" alt=""></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -63,7 +63,7 @@
 	<div class="container text-center">
 		<div class="row">
 			<div class="col">
-				<a href="#"> <img src="../img/QnA_bar.png"
+				<a href="#"> <img src="img/QnA_bar.png"
 					class="img-rounded img-responsive" alt="QnA_bar">
 				</a>
 				<table class="table table-responsive-sm">
@@ -85,7 +85,7 @@
 			</div>
 			<div class="col">
 				<a href="#"> <img
-					src="../img/community_bar.png"
+					src="img/community_bar.png"
 					class="img-rounded img-responsive" alt="QnA_bar">
 				</a>
 				<table class="table table-responsive-sm">
@@ -107,7 +107,7 @@
 			</div>
 			<div class="col">
 				<a href="#"> <img
-					src="../img/notice_bar.png"
+					src="img/notice_bar.png"
 					class="img-rounded img-responsive" alt="QnA_bar">
 				</a>
 				<table class="table table-responsive-sm">
