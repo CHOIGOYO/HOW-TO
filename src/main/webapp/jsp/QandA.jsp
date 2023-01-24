@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -15,7 +17,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How To</title>
-<!--íŒŒí”¼ì½˜ ì‚½ìž…-->
+<!--ÆÄÇÇÄÜ »ðÀÔ-->
 <link rel="shortcut icon" type="image/x-icon"
 	href="https://img.icons8.com/external-flaticons-flat-flat-icons/512/external-wolf-vikings-flaticons-flat-flat-icons.png">
 </head>
@@ -36,15 +38,15 @@
 				id="navbarNav">
 				<ul class="navbar-nav justify-content-center">
 					<li class="nav-item"><a class="nav-link" href="#">QnA</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">ì»¤ë®¤ë‹ˆí‹°</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Ä¿¹Â´ÏÆ¼</a></li>
 
 					<li class="nav-item dropdown"><a
 						class="nav-link dropdown-toggle" href="#"
 						id="navbarDropdownMenuLink" role="button"
-						data-bs-toggle="dropdown" aria-expanded="false">ìžë£Œì‹¤</a>
+						data-bs-toggle="dropdown" aria-expanded="false">ÀÚ·á½Ç</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<li><a class="dropdown-item" href="#">ì½”ë“œ ê³µìœ </a></li>
-							<li><a class="dropdown-item" href="#">ê³µì§€ì‚¬í•­</a></li>
+							<li><a class="dropdown-item" href="#">ÄÚµå °øÀ¯</a></li>
+							<li><a class="dropdown-item" href="#">°øÁö»çÇ×</a></li>
 							<li><a class="dropdown-item" href="#">About HOW TO</a></li>
 						</ul></li>
 				</ul>
@@ -64,24 +66,24 @@
 		</div>
 	</nav>
 
-	<!-- ì¤‘ì•™ -->
+	<!-- Áß¾Ó -->
 	<div class="container text-center">
 		<a href="#"> <img src="../img/QnA_bar.png"
 			class="img-rounded img-responsive" alt="QnA_bar"></a>
 		<table class="table table-responsive-sm">
 			<thead>
 				<tr>
-					<th>ê¶ê¸ˆí•œ ê±° ìžˆìœ¼ë©´ ì–¸ì œë“  ì§ˆë¬¸ ì£¼ì„¸ìš”.</th>
+					<th>±Ã±ÝÇÑ °Å ÀÖÀ¸¸é ¾ðÁ¦µç Áú¹® ÁÖ¼¼¿ä.</th>
 				</tr>
 			</thead>
 		</table>
 	</div>
 
-	<!-- ê²Œì‹œë¬¼ ìž‘ì„±, ê²€ìƒ‰ì°½ -->
+	<!-- °Ô½Ã¹° ÀÛ¼º, °Ë»öÃ¢ -->
 	<div class="container">
 		<div class="row">
 			<div class="col-3">
-				<button class="btn btn-ouline-none">ê²Œì‹œë¬¼ ìž‘ì„±</button>
+				<button class="btn btn-ouline-none">°Ô½Ã¹° ÀÛ¼º</button>
 			</div>
 			<div class="col-9 d-flex justify-content-end">
 				<input type="search" placeholder="Search" aria-label="Search">
@@ -90,16 +92,16 @@
 		</div>
 	</div>
 
-	<!-- ê²Œì‹œë¬¼ List -->
+	<!-- °Ô½Ã¹° List -->
 	<div class="container mt-5">
 		<table>
 			<thead>
 				<tr>
-					<th>ìž‘ì„±ìž</th>
+					<th>ÀÛ¼ºÀÚ</th>
 				</tr>
 				<hr>
 				<tr>
-					<th>ì§ˆë¬¸</th>
+					<th>Áú¹®</th>
 				</tr>
 			</thead>
 		</table>
@@ -109,11 +111,11 @@
 		<table>
 			<thead>
 				<tr>
-					<th>ìž‘ì„±ìž</th>
+					<th>ÀÛ¼ºÀÚ</th>
 				</tr>
 				<hr>
 				<tr>
-					<th>ì§ˆë¬¸</th>
+					<th>Áú¹®</th>
 				</tr>
 			</thead>
 		</table>
@@ -123,11 +125,11 @@
 		<table>
 			<thead>
 				<tr>
-					<th>ìž‘ì„±ìž</th>
+					<th>ÀÛ¼ºÀÚ</th>
 				</tr>
 				<hr>
 				<tr>
-					<th>ì§ˆë¬¸</th>
+					<th>Áú¹®</th>
 				</tr>
 			</thead>
 		</table>
@@ -136,11 +138,11 @@
 		<table>
 			<thead>
 				<tr>
-					<th>ìž‘ì„±ìž</th>
+					<th>ÀÛ¼ºÀÚ</th>
 				</tr>
 				<hr>
 				<tr>
-					<th>ì§ˆë¬¸</th>
+					<th>Áú¹®</th>
 				</tr>
 			</thead>
 		</table>
@@ -149,17 +151,17 @@
 		<table>
 			<thead>
 				<tr>
-					<th>ìž‘ì„±ìž</th>
+					<th>ÀÛ¼ºÀÚ</th>
 				</tr>
 				<hr>
 				<tr>
-					<th>ì§ˆë¬¸</th>
+					<th>Áú¹®</th>
 				</tr>
 			</thead>
 		</table>
 	</div>
 	
-	<!-- íŽ˜ì´ì§€ (1,2,3...) -->
+	<!-- ÆäÀÌÁö (1,2,3...) -->
 <div class = "container mt-3">
 	<ul class = "pagination justify-content-center">
 		<li class = "page-item"><a class = "page-link" href = "#">1</a></li>
