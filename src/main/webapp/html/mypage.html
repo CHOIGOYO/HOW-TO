@@ -48,12 +48,57 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
-                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Sign Up</a>
-                    </li>
+                    <!--
+                        유저 프로필사진과 닉네임 표시 예정 클릭하면 마이페이지로 이동하는 기능 추가하기
+                    -->
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- my page information -->
+    <!--메인 틀-->
+    <div class="container">
+        <div class="row">
+            <div class="col-3" id="MyAccount">
+               <div>
+                <h4>내 계정</h4>
+                <!--추후 추가 계정 내용 미정-->
+               </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    <h4>회원정보</h4>
+                    <div class="my-10 flex flex-col lg:flex-row">
+                        <div class="flex-grow space-y-6">
+                            <div>
+                                <label for="username" class="block text-sm font-medium text-gray-700 dark:text-gray-300">이름</label>
+                            </div>
+                            <div>
+                                <input type="text" id="username" class="block w-full appearance-none rounded-md border border-gray-500/30 px-3 py-2 text-sm placeholder-gray-500/80 shadow-sm focus:border-gray-500 focus:outline-none focus:ring-0 dark:bg-gray-500/20 sm:text-base" name="fullName">
+                            </div>
+                            <div>
+                                <label for="username" class="block text-sm font-medium text-gray-700 dark:text-gray-300">닉네임</label>
+                            </div>
+                            <div>
+                                <input type="text" id="nickname" class="block w-full appearance-none rounded-md border border-gray-500/30 px-3 py-2 text-sm placeholder-gray-500/80 shadow-sm focus:border-gray-500 focus:outline-none focus:ring-0 dark:bg-gray-500/20 sm:text-base" name="nickname">
+                            </div>
+                            <div>
+                                <label for="username" class="block text-sm font-medium text-gray-700 dark:text-gray-300">비밀번호</label>
+                            </div>
+                            <div>
+                                <input type="text" id="password" class="block w-full appearance-none rounded-md border border-gray-500/30 px-3 py-2 text-sm placeholder-gray-500/80 shadow-sm focus:border-gray-500 focus:outline-none focus:ring-0 dark:bg-gray-500/20 sm:text-base" name="password">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div>
+                    <!--프로필 사진 추가하기-->
+                </div>
+            </div>
+        </div>
+    </div>
     </body>
+
 </html>
